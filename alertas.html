@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockMaster | Alertas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+    <aside class="sidebar">
+        <h2>StockMaster</h2>
+
+        <a href="dashboard.html">Dashboard</a>
+        <a href="productos.html">Productos</a>
+        <a href="alertas.html" class="active">Alertas</a>
+        <a href="#" onclick="cerrarSesion()">Cerrar sesión</a>
+    </aside>
+
+    <main class="content">
+
+        <section class="header">
+            <h1>Alertas y Recomendaciones</h1>
+            <p>Productos que requieren atención inmediata.</p>
+        </section>
+
+        <div class="alert-box">
+            <h3>⚠ Stock crítico</h3>
+            <p>El producto "Teclado Mecánico" tiene únicamente 3 unidades disponibles.</p>
+        </div>
+
+        <div class="alert-box">
+            <h3>📦 Reabastecimiento</h3>
+            <p>Se recomienda generar una nueva orden de compra para Mouse Logitech.</p>
+        </div>
+
+        <div class="alert-box">
+            <h3>🚚 Transferencia sugerida</h3>
+            <p>La sucursal Norte dispone de suficiente inventario para abastecer a la sucursal Sur.</p>
+        </div>
+
+    </main>
+
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
